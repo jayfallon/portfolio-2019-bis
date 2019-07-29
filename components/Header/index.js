@@ -1,9 +1,28 @@
+import Link from 'next/link';
 import HeaderStyles from './styles'
 
 const Header = () => (
-    <HeaderStyles>
-        <h1>Jay Fallon</h1>
-        <h3>UX Designer &amp; Engineer</h3>
+
+    <HeaderStyles id="pageTop">
+        <section className="header__content">
+            <h1>
+                <Link href="/"><a title="Link to home page">Jay Fallon</a></Link>
+            </h1>
+            <nav>
+                <h3>Digital Design &amp; Development</h3>
+                <ul>
+                    <li>
+                        <Link href="/about"><a title="">About</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/projects"><a title="">Projects</a></Link>
+                    </li>
+                    <li>
+                        <Link href="/resume"><a title="">Resume</a></Link>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </HeaderStyles>
 )
 

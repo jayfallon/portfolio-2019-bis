@@ -65,6 +65,7 @@ html {
 }
 body {
   background-color: ${Theme.pageBgColor};
+  padding-bottom: 36rem;
   height: 100%;
   color: ${Colors.woodsmoke};
   font-family: acumin-pro-condensed, sans-serif;
@@ -78,6 +79,8 @@ main {
 }
 
 main#main__content {
+  background-color: ${Colors.woodsmoke};
+  margin: 0;
   padding: 5rem 0 4rem;
 }
 
