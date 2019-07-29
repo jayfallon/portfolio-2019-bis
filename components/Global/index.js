@@ -74,7 +74,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 main {
-  background-color: ${Colors.white} ;
   padding: 0 0;
 }
 
