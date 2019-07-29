@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "next-pwa-boilerplate",
-  "alias": ["next-pwa-boilerplate"],
+  "name": "Jayfallon Portfolio 2019 Bis",
+  "alias": ["portfolio-bis"],
   "builds": [{ "src": "package.json", "use": "@now/next" }],
   "routes": [
     {
