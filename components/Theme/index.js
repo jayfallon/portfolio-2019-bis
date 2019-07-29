@@ -35,13 +35,24 @@ const Colors = {
     gray04: '#f8f8f8',
     hitGray: '#a1acb2',
     porcelain: '#FCFDFD',
+    outerSpace: '#262C2E',
   };
   
   const Theme = {
-    pageBgColor: Colors.woodsmoke,
+    pageBgColor: Colors.outerSpace,
     pageTextColor: Colors.porcelain,
 
+    headerBgColor: Colors.woodsmoke,
     headerLinkColor: Colors.porcelain,
+    headerTextColor: Colors.porcelain,
+
+    mainContentBgColor: Colors.woodsmoke,
+
+    bannerHomeTextColor: Colors.porcelain,
+
+    footerBgColor: Colors.woodsmoke,
+    footerLinkColor: Colors.porcelain,
+    footerTextColor: Colors.porcelain,
   }
   
   export default Theme;

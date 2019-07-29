@@ -1,9 +1,7 @@
-
+import Home from '../components/Home'
 
 const Index = () => (
-  <>
-    <p>Hello</p>
-  </>
+  <Home/>
 );
 
 export default Index;
