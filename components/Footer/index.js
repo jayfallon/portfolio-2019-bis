@@ -8,16 +8,16 @@ const Footer = props => (
             <nav>
                 <ul>
                     <li>
-                        <Link href="https://www.linkedin.com/in/jayfallon/"><a title="Jay Fallon's LinkedIn profile">LinkedIn</a></Link>
+                        <Link href="https://www.linkedin.com/in/jayfallon/"><a title="Jay Fallon's LinkedIn profile" target="_blank">LinkedIn</a></Link>
                     </li>
                     <li>
-                        <Link href="https://github.com/jayfallon"><a title="Jay Fallon's GitHub profile">GitHub</a></Link>
+                        <Link href="https://github.com/jayfallon"><a title="Jay Fallon's GitHub profile" target="_blank">GitHub</a></Link>
                     </li>
                     <li>
-                        <Link href="https://medium.com/@jayfallon"><a title="Jay Fallon's Medium posts">Medium</a></Link>
+                        <Link href="https://medium.com/@jayfallon"><a title="Jay Fallon's Medium posts" target="_blank">Medium</a></Link>
                     </li>
                     <li>
-                        <Link href="https://www.instagram.com/jayfallon/"><a title="Jay Fallon's Instagram profile">Instagram</a></Link>
+                        <Link href="https://www.instagram.com/jayfallon/"><a title="Jay Fallon's Instagram profile" target="_blank">Instagram</a></Link>
                     </li>
                     <li>
                     <Link href="/resume"><a title="Resume page">Resume</a></Link>
