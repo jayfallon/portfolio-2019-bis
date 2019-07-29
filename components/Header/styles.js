@@ -34,7 +34,7 @@ const HeaderStyles = styled.header`
             justify-content: space-between;
         }
         li {
-            margin-right: 3.5rem;
+            margin-left: 3.5rem;
             font-size: 2rem;
         }
         a {
