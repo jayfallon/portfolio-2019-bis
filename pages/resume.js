@@ -1,4 +1,4 @@
-const ResumePage = () =< (
+const ResumePage = () => (
     <>Resume</>
 )
 

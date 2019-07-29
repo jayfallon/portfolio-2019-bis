@@ -1,4 +1,4 @@
-const WorkPage = () =< (
+const WorkPage = () => (
     <>Work</>
 )
 
