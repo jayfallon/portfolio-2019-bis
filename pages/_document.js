@@ -112,7 +112,7 @@ export default class MyDocument extends Document {
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
-          <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+          <link rel="stylesheet" href="https://use.typekit.net/dwo1agu.css" />
         </Head>
         <body>
           <Main />

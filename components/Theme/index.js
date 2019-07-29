@@ -39,6 +39,9 @@ const Colors = {
   
   const Theme = {
     pageBgColor: Colors.woodsmoke,
+    pageTextColor: Colors.porcelain,
+
+    headerLinkColor: Colors.porcelain,
   }
   
   export default Theme;
