@@ -67,7 +67,7 @@ body {
   background-color: ${Theme.pageBgColor};
   height: 100%;
   color: ${Colors.woodsmoke};
-  font-family: 'Roboto', sans-serif;
+  font-family: acumin-pro-condensed, sans-serif;
   font-size: 16px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
