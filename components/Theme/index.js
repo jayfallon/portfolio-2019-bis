@@ -38,7 +38,7 @@ const Colors = {
   };
   
   const Theme = {
-    pageBgColor: Colors.porcelain,
+    pageBgColor: Colors.woodsmoke,
   }
   
   export default Theme;
