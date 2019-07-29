@@ -1,9 +1,9 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
-export const title = "Next.js PWA Boilerplate";
+export const title = "Jay Fallon - UX Designer &amp; Engineer";
 const description =
-  "Next.js PWA Boilerplate starts your progressive web app off with a perfect Google Lighthouse score.";
+  "August 2019 version of my portfolio as a progressive web application.";
 const url = `https://next-pwa-boilerplate.now.sh`;
 const thumbnail = `${url}/static/graphics/thumbnail.png`;
 
@@ -112,6 +112,7 @@ export default class MyDocument extends Document {
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
+          <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
