@@ -2,22 +2,20 @@ import styled from 'styled-components'
 import media from '../MediaQueries'
 
 const SideDrawerStyles = styled.nav`
-    padding-top: 1rem;
+    background-color: ${props => props.theme.sidebarBgColor};
+    padding: 1rem 2rem 2rem;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
     transform: translateX(-100%);
     transition: transform 0.2s ease-out;
     &.open {
         transform: translateX(0);
     }
-    z-index: 300;
-    width: 100%;
-    height: 100%;
-    background-color: ${props => props.theme.sidebarBgColor};
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 2rem 2rem;
-
+    
     h1 {
         padding-bottom: 2rem;
         color: ${props => props.theme.sidebarTextColor};
@@ -29,6 +27,7 @@ const SideDrawerStyles = styled.nav`
         ${media.brotherbear`
             font-size: 5.2rem;
         `}
+
         a {
             color: ${props => props.theme.sidebarLinkColor};
             text-decoration: none; 
@@ -38,6 +37,7 @@ const SideDrawerStyles = styled.nav`
     li {
         padding-bottom: 2rem;
     }
+    
     li a {
         color: ${props => props.theme.sidebarLinkColor};
         font-size: 2rem;
