@@ -7,14 +7,14 @@ const SideDrawer = props => {
         drawerClasses = ['open'];
     }
     return (
-        <SideDrawerStyles className={drawerClasses} onClick={props.hide}>
+        <SideDrawerStyles className={drawerClasses}>
             <h1>
                 <Link href="/"><a title="Link to home page">Jay Fallon</a></Link>
-                <DrawerToggleButtonStyles>
+                <DrawerToggleButtonStyles onClick={props.hide}>
                     <i className="fal fa-times"></i>
                 </DrawerToggleButtonStyles>
             </h1>
-            <ul className="sideDrawer__nav">
+            <ul className="sideDrawer__nav" onClick={props.hide}>
                 <li>
                     <Link href="/about"><a title="More about Jay">About</a></Link>
                 </li>
