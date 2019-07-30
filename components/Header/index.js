@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import HeaderStyles from './styles'
+import DrawerToggleButton from './drawerToggle'
 
-const Header = () => (
+const Header = (props) => (
 
     <HeaderStyles id="pageTop">
         <section className="header__content">
@@ -10,7 +11,8 @@ const Header = () => (
             </h1>
             <nav>
                 <h3>Digital Design &amp; Development</h3>
-                <ul>
+                <DrawerToggleButton click={props.drawerClickHandler}/>
+                <ul className="header__nav">
                     <li>
                         <Link href="/about"><a title="">About</a></Link>
                     </li>

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const ResumeStyles = styled.section`
     background-color: ${props => props.theme.resumeBgColor};
     margin: 0 auto;
-    padding: 0 2rem 4rem;
+    padding: 17rem 2rem 4rem;
     color: ${props => props.theme.resumeTextColor};
 
     article {

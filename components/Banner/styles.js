@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import media from '../MediaQueries'
 
 const HomeBannerStyles = styled.section`
-    margin: 0 auto;
-    padding: 0 2rem 4rem;
+    margin: 16rem auto 0;
+    padding: 4rem 2rem 4rem;
     max-width: 96rem;
     color: ${props => props.theme.bannerHomeTextColor};
     text-align: center;
@@ -12,7 +12,7 @@ const HomeBannerStyles = styled.section`
     justify-content: center;
     align-items: center;
     ${media.brotherbear`
-    padding: 10rem 2rem;
+        padding: 10rem 2rem;
     `}
     
     p {
