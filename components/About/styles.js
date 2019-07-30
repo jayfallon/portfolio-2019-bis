@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from '../MediaQueries'
 
 const AboutStyles = styled.section`
     margin: 0 auto;
@@ -8,18 +9,22 @@ const AboutStyles = styled.section`
 
     p {
         padding-bottom: 2rem;
-        width: 75%;
         font-size: 2.2rem;
         line-height: 1.2;
+        ${media.brotherbear`
+            width: 75%;
+        `}
     }
 
     h3 {
         margin-bottom: 3rem;
-        max-width: 66%;
         font-size: 4rem;
         font-weight: bold;
         line-height: 1.1;
         text-transform: uppercase;
+        ${media.brotherbear`
+            width: 66%;
+        `}
     }
 
     p.about__title {

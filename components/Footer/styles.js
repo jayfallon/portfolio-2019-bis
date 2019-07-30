@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from '../MediaQueries'
 
 const FooterStyles = styled.footer`
     background-color: ${props => props.theme.footerBgColor};
@@ -26,8 +27,10 @@ const FooterStyles = styled.footer`
 
         nav {
             padding-top: 2rem;
-            display: flex;
             justify-content: space-between;
+            ${media.brotherbear`
+                display: flex;
+            `}
 
             a {
                 color: ${props => props.theme.footerLinkColor};
@@ -41,6 +44,13 @@ const FooterStyles = styled.footer`
 
             li {
                 margin-right: 3.5rem;
+            }
+
+            p.footer__link--top {
+                padding-top: 3rem;
+                ${media.brotherbear`
+                    padding-top: 0;
+                `}
             }
         }
     }
