@@ -8,10 +8,11 @@ const Header = (props) => (
         <section className="header__content">
             <h1>
                 <Link href="/"><a title="Link to home page">Jay Fallon</a></Link>
+                <DrawerToggleButton click={props.drawerClickHandler}/>
             </h1>
             <nav>
                 <h3>Digital Design &amp; Development</h3>
-                <DrawerToggleButton click={props.drawerClickHandler}/>
+                
                 <ul className="header__nav">
                     <li>
                         <Link href="/about"><a title="">About</a></Link>
