@@ -23,13 +23,17 @@ class Page extends Component {
     });
   }
 
+  drawerCloseClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  }
+
   render() {
     return(
       <ThemeProvider theme={Theme}>
         <StyledPage>
           <GlobalStyle />
           <Meta/>
-          <SideDrawer show={this.state.sideDrawerOpen}/>
+          <SideDrawer show={this.state.sideDrawerOpen} hide={this.drawerCloseClickHandler}/>
           <a href="#main__content" className="main__content--link">Skip to main content</a>
           <Header drawerClickHandler={this.drawerToggleClickHandler}/>
           <main id="main__content" role="main">

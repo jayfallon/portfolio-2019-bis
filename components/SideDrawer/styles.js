@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const SideDrawerStyles = styled.nav`
     transform: translateX(-100%);
-    transition: transform 0.2 ease-in-out;
+    transition: transform 0.2s ease-in-out;
     &.open {
         transform: translateX(0);
     }
