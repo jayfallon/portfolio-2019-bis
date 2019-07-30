@@ -53,6 +53,10 @@ const Colors = {
     footerBgColor: Colors.woodsmoke,
     footerLinkColor: Colors.porcelain,
     footerTextColor: Colors.porcelain,
+
+    resumeTextColor: Colors.woodsmoke,
+    resumeBgColor: Colors.porcelain,
+    resumeHrColor: Colors.outerSpace,
   }
   
   export default Theme;

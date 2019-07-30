@@ -26,7 +26,7 @@ const Footer = props => (
                     <Link href="/resume"><a title="Resume page">Resume</a></Link>
                     </li>
                 </ul>
-                <p>
+                <p className="footer__link--top">
                     <Link href="#pageTop"><a title="hello">Back to top</a></Link>
                 </p>
             </nav>
