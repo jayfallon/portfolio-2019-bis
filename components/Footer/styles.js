@@ -39,11 +39,17 @@ const FooterStyles = styled.footer`
             }
 
             ul {
-                display: flex;
+                ${media.brotherbear`
+                    display: flex;
+                `}
             }
 
             li {
-                margin-right: 3.5rem;
+                padding-bottom: 1.2rem;
+                ${media.brotherbear`
+                    margin-right: 3.5rem;
+                    padding-bottom: 0;
+                `}
             }
 
             p.footer__link--top {
