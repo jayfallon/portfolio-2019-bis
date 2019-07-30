@@ -1,9 +1,7 @@
-import Link from 'next/link';
+import Resume from '../components/Resume'
 
 const ResumePage = () => (
-    <section className="resume__wrapper">
-    <Link href="/static/resume/jayfallon-resume-2019.pdf"><a title="resume" target="_blank">Download Resume (.pdf)</a></Link>
-    </section>
+    <Resume/>
 )
 
 export default ResumePage

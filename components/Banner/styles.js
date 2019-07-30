@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const HomeBannerStyles = styled.section`
     margin: 0 auto;
-    padding: 6rem 2rem;
+    padding: 18rem 2rem 4rem;
     max-width: 96rem;
     color: ${props => props.theme.bannerHomeTextColor};
     text-align: center;

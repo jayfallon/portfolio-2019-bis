@@ -5,10 +5,11 @@ const HeaderStyles = styled.header`
     background-color: ${props => props.theme.headerBgColor};
     section.header__content {
         margin: 0 auto;
-        padding: 4rem 2rem;
+        padding: 4rem 2rem 12rem;
         max-width: 96rem;
     }
     h1 {
+        padding-bottom: 2rem;
         color: ${props => props.theme.headerLinkColor};
         font-family: shackleton-condensed, serif;
         font-size: 3.9rem;
