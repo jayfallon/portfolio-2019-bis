@@ -113,6 +113,7 @@ export default class MyDocument extends Document {
             rel="apple-touch-startup-image"
           />
           <link rel="stylesheet" href="https://use.typekit.net/dwo1agu.css" />
+          <script src="https://kit.fontawesome.com/6fe37eaa4f.js"></script>
         </Head>
         <body>
           <Main />

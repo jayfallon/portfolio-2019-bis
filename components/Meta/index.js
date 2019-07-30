@@ -6,7 +6,7 @@ const Meta = () => (
     <meta charSet="utf-8" />
     <link rel="shortcut icon" href="/static/favicon.png" />
     <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
-    <title>Jay Fallon - UX Designer &amp; Engineer</title>
+    <title>Jay Fallon - Digital Designer, Developer & Data Nerd</title>
   </Head>
 );
 

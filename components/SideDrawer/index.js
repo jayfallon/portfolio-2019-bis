@@ -25,6 +25,7 @@ const SideDrawer = props => {
                 <Link href="/static/resume/jayfallon-resume-2019.pdf"><a target="_blank" title="Download Jay's resume">Download Resume</a></Link>
                 </li>
             </ul>
+            <div className="sideDrawer__close"><i class="fal fa-times"></i></div>
         </SideDrawerStyles>
     )
 }

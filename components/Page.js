@@ -36,6 +36,7 @@ class Page extends Component {
           <SideDrawer show={this.state.sideDrawerOpen} hide={this.drawerCloseClickHandler}/>
           <a href="#main__content" className="main__content--link">Skip to main content</a>
           <Header drawerClickHandler={this.drawerToggleClickHandler}/>
+          <a name="pageTop" id="pageTop"/>
           <main id="main__content" role="main">
             {this.props.children}
           </main>

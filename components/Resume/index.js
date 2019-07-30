@@ -87,7 +87,6 @@ const Resume = props => (
         {resumeData.map((elem, i) => (
             <article key={i}>
             <>
-
                 <h3>{elem.sectionTitle}</h3>
            
                     {
