@@ -7,7 +7,7 @@ const SideDrawer = props => {
         drawerClasses = ['open'];
     }
     return (
-        <SideDrawerStyles className={drawerClasses}>
+        <SideDrawerStyles className={drawerClasses} onClick={props.hide}>
             <ul className="sideDrawer__nav">
                 <li>
                     <Link href="/"><a title="Jay's home page">Home Page</a></Link>
