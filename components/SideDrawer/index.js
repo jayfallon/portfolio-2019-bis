@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import SideDrawerStyles from './styles'
+import SideDrawerStyles, {DrawerToggleButtonStyles} from './styles'
 
 const SideDrawer = props => {
     let drawerClasses = [''];
@@ -8,10 +8,13 @@ const SideDrawer = props => {
     }
     return (
         <SideDrawerStyles className={drawerClasses} onClick={props.hide}>
+            <h1>
+                <Link href="/"><a title="Link to home page">Jay Fallon</a></Link>
+                <DrawerToggleButtonStyles>
+                    <i className="fal fa-times"></i>
+                </DrawerToggleButtonStyles>
+            </h1>
             <ul className="sideDrawer__nav">
-                <li>
-                    <Link href="/"><a title="Jay's home page">Home Page</a></Link>
-                </li>
                 <li>
                     <Link href="/about"><a title="More about Jay">About</a></Link>
                 </li>
@@ -25,7 +28,7 @@ const SideDrawer = props => {
                 <Link href="/static/resume/jayfallon-resume-2019.pdf"><a target="_blank" title="Download Jay's resume">Download Resume</a></Link>
                 </li>
             </ul>
-            <div className="sideDrawer__close"><i class="fal fa-times"></i></div>
+            
         </SideDrawerStyles>
     )
 }

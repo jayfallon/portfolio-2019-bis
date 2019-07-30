@@ -57,6 +57,10 @@ const Colors = {
     resumeTextColor: Colors.woodsmoke,
     resumeBgColor: Colors.porcelain,
     resumeHrColor: Colors.outerSpace,
+
+    sidebarBgColor: Colors.porcelain,
+    sidebarTextColor: Colors.woodsmoke,
+    sidebarLinkColor: Colors.woodsmoke,
   }
   
   export default Theme;

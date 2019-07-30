@@ -3,7 +3,7 @@ import media from '../MediaQueries'
 
 const AboutStyles = styled.section`
     margin: 0 auto;
-    padding: 0 2rem 4rem;
+    padding: 17rem 2rem 4rem;
     max-width: 96rem;
     color: #fff;
 

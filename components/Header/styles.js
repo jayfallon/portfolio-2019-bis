@@ -19,6 +19,8 @@ const HeaderStyles = styled.header`
         font-family: shackleton-condensed, serif;
         font-size: 3.9rem;
         line-height: 1.33;
+        display: flex;
+        justify-content: space-between;
         ${media.brotherbear`
             font-size: 5.2rem;
         `}
@@ -56,15 +58,9 @@ export default HeaderStyles
 
 const DrawerToggleButtonStyles = styled.button`
     background: transparent;
-    margin-right: 2rem;
-    width: 3rem;
-    height: 2.4rem;
     border: none;
+    color: #fff;
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
     ${media.brotherbear`
         display: none;
     `}
@@ -72,10 +68,9 @@ const DrawerToggleButtonStyles = styled.button`
         outline: none;
     }
 
-    div.toggleButtonLine {
-        background-color: #fff;
-        width: 3rem;
-        height: 0.3rem;
+    i.far {
+        font-size: 3rem;
+        line-height: 1.33;
     }
 `
 
