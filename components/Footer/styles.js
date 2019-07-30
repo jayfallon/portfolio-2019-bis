@@ -5,7 +5,7 @@ const FooterStyles = styled.footer`
     color: ${props => props.theme.footerTextColor};
     section.footer__content {
         margin: 0 auto;
-        padding: 10rem 2rem 40rem;
+        padding: 0rem 2rem 40rem;
         max-width: 96rem; 
 
         h3 {
@@ -13,6 +13,15 @@ const FooterStyles = styled.footer`
             font-weight: bold;
             line-height: 1.25;
             text-transform: uppercase;
+        }
+
+        h5 {
+            font-size: 2.2rem;
+            line-height: 1.25;
+            a {
+                color: ${props => props.theme.footerLinkColor};
+                text-decoration: none;
+            }
         }
 
         nav {

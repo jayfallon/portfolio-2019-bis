@@ -5,6 +5,9 @@ const Footer = props => (
     <FooterStyles>
         <section className="footer__content">
             <h3>Let's Talk</h3>
+            <h5>
+            <Link href="mailto:jayfallon@gmail.com"><a title="Jay Fallon's email address">jayfallon@gmail.com</a></Link>
+            </h5>
             <nav>
                 <ul>
                     <li>
@@ -27,6 +30,7 @@ const Footer = props => (
                     <Link href="#pageTop"><a title="hello">Back to top</a></Link>
                 </p>
             </nav>
+            
         </section>
     </FooterStyles>
 )
