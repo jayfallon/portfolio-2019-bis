@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const SideDrawerStyles = styled.nav`
 padding-top: 4rem;
     transform: translateX(-100%);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-out;
     &.open {
         transform: translateX(0);
     }

@@ -4,7 +4,7 @@ import DrawerToggleButton from './drawerToggle'
 
 const Header = (props) => (
 
-    <HeaderStyles id="pageTop">
+    <HeaderStyles>
         <section className="header__content">
             <h1>
                 <Link href="/"><a title="Link to home page">Jay Fallon</a></Link>
