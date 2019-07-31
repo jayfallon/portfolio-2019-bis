@@ -42,9 +42,12 @@ const Colors = {
     pageBgColor: Colors.outerSpace,
     pageTextColor: Colors.porcelain,
 
-    headerBgColor: Colors.woodsmoke,
-    headerLinkColor: Colors.porcelain,
-    headerTextColor: Colors.porcelain,
+    headerDkBgColor: Colors.woodsmoke,
+    headerDkLinkColor: Colors.porcelain,
+    headerDkTextColor: Colors.porcelain,
+    headerLtBgColor: Colors.porcelain,
+    headerLtLinkColor: Colors.woodsmoke,
+    headerLtTextColor: Colors.woodsmoke,
 
     mainContentBgColor: Colors.woodsmoke,
 

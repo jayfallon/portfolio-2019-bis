@@ -24,7 +24,7 @@ const Header = (props) => (
                         <Link href="/resume"><a title="">Experience</a></Link>
                     </li>
                     <li>
-                    <Link href="/static/resume/jayfallon-resume-2019.pdf"><a target="_blank" title="Download Jay's resume">Download Resume</a></Link>
+                    <Link href="/static/resume/jayfallon-resume-2019.pdf"><a target="_blank" title="Download Jay's resume">Download Resume <i className="far fa-external-link"></i></a></Link>
                     </li>
                 </ul>
             </nav>
