@@ -14,7 +14,7 @@ const StyledPage = styled.div`
 class Page extends Component {
 
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
   }
 
   drawerToggleClickHandler = () => {

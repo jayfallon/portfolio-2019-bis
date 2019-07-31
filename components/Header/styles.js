@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import media from '../MediaQueries'
 
 const HeaderStyles = styled.header`
-    background-color: ${props => props.theme.headerBgColor};
+    background: red;
     width: 100%;
     position: fixed;
     section.header__content {
@@ -10,12 +10,12 @@ const HeaderStyles = styled.header`
         padding: 1rem 2rem 1rem;
         max-width: 96rem;
         ${media.brotherbear`
-            padding: 4rem 2rem 1rem;
+            padding: 4rem 2rem 3rem;
         `}
     }
     h1 {
         padding-bottom: 2rem;
-        color: ${props => props.theme.headerLinkColor};
+        color: #fff;
         font-family: shackleton-condensed, serif;
         font-size: 3.9rem;
         line-height: 1.33;
@@ -25,7 +25,7 @@ const HeaderStyles = styled.header`
             font-size: 5.2rem;
         `}
         a {
-            color: ${props => props.theme.headerLinkColor};
+            color: #fff;
             text-decoration: none; 
         }
     }
@@ -34,7 +34,7 @@ const HeaderStyles = styled.header`
         display: flex;
         justify-content: space-between;
         h3 {
-            color: ${props => props.theme.headerTextColor};
+            color: #fff;
             font-size: 2rem;
         }
         ul.header__nav {
@@ -47,9 +47,13 @@ const HeaderStyles = styled.header`
         li {
             margin-left: 3.5rem;
             font-size: 2rem;
+            i.far {
+                margin-left: 0.2rem;
+                font-size: 1.5rem;
+            }
         }
         a {
-            color: ${props => props.theme.headerLinkColor};
+            color: #fff;
             text-decoration: none;
         } 
     }
