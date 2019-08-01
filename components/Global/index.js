@@ -53,12 +53,11 @@ table {
 }
 
 :root {
-    font-size: 10px;
+    font-size: 65%;
 }
 html {
   height: 100%; 
   box-sizing: border-box;
-  font-size: 10px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -69,7 +68,6 @@ body {
   height: 100%;
   color: ${Colors.woodsmoke};
   font-family: acumin-pro-condensed, sans-serif;
-  font-size: 16px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
