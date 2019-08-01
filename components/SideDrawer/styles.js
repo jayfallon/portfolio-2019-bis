@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 import media from '../MediaQueries'
+import {backgroundColor, textColor, linkColor} from '../Theme';
+
 
 const SideDrawerStyles = styled.nav`
-    background-color: ${props => props.theme.sidebarBgColor};
+    background-color: ${backgroundColor};
     padding: 1rem 2rem 2rem;
     width: 100%;
     height: 100%;
@@ -18,7 +20,7 @@ const SideDrawerStyles = styled.nav`
     
     h1 {
         padding-bottom: 2rem;
-        color: ${props => props.theme.sidebarTextColor};
+        color: ${textColor};
         font-family: shackleton-condensed, serif;
         font-size: 3.9rem;
         line-height: 1.33;
@@ -29,7 +31,7 @@ const SideDrawerStyles = styled.nav`
         `}
 
         a {
-            color: ${props => props.theme.sidebarLinkColor};
+            color: ${linkColor};
             text-decoration: none; 
         }
     }
@@ -39,7 +41,7 @@ const SideDrawerStyles = styled.nav`
     }
     
     li a {
-        color: ${props => props.theme.sidebarLinkColor};
+        color: ${linkColor};
         font-size: 2rem;
         font-weight: bold;
         text-decoration: none;
@@ -51,7 +53,7 @@ export default SideDrawerStyles
 const DrawerToggleButtonStyles = styled.button`
     background: transparent;
     border: none;
-    color: ${props => props.theme.sidebarLinkColor};
+    color: ${linkColor};
     cursor: pointer;
     ${media.brotherbear`
         display: none;
