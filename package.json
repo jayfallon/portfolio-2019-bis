@@ -29,8 +29,7 @@
     "react-markdown": "^4.1.0",
     "styled-components": "^4.3.2",
     "styled-theming": "^2.2.0",
-    "styled-tools": "^1.7.1",
-    "textblock": "^0.12.2"
+    "styled-tools": "^1.7.1"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.6",
