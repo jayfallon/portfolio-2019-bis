@@ -66,7 +66,7 @@ body {
   background-color: ${Theme.pageBgColor};
   padding-bottom: 36rem;
   height: 100%;
-  color: ${Colors.woodsmoke};
+  color: ${Theme.pageTextColor};
   font-family: acumin-pro-condensed, sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -86,30 +86,30 @@ strong {
 
 a.main__content--link {
   margin: 0 !important;
-  padding: 10px 15px;
-  width: 1px !important;
-  height: 1px !important;
-  color: #0b0c0c;
+  padding: 1.5rem 2rem;
+  width: 0.1rem;
+  height: 0.1rem;
+  color: ${Theme.mainContentLinkColor};
   font-size: 1.6rem;
-  overflow: hidden !important;
-  position: absolute !important;
+  overflow: hidden;
+  position: absolute;
   display: block;
-  clip: rect(0 0 0 0) !important;
+  clip: rect(0 0 0 0);
 }
 
 a.main__content--link:focus {
-  margin: inherit !important;
-  background-color: #ffbf47;
-  width: auto !important;
-  height: auto !important;
-  white-space: inherit !important;
-  outline: 3px solid #ffbf47;
+  margin: inherit;
+  background-color: ${Theme.mainContentLinkBgColor};
+  width: auto;
+  height: auto;
+  white-space: inherit;
+  outline: 3px solid ${Theme.mainContentLinkBgColor};
   outline-offset: 0;
-  position: static !important;
-  overflow: visible !important;
-  clip: auto !important;
-  clip-path: none !important;
-  -webkit-clip-path: none !important;
+  position: static;
+  overflow: visible;
+  clip: auto;
+  clip-path: none;
+  -webkit-clip-path: none;
 }
 `
 export default GlobalStyle

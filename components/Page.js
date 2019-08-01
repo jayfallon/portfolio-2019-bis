@@ -10,28 +10,12 @@ const StyledPage = styled.div`
 
 class Page extends Component {
 
-  state = {
-    sideDrawerOpen: false,
-  }
-
-  drawerToggleClickHandler = () => {
-    this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
-    });
-  }
-
-  drawerCloseClickHandler = () => {
-    this.setState({sideDrawerOpen: false});
-  }
-
   render() {
     return(
       <StyledPage>
         <GlobalStyle />
         <Meta/>
-        <SideDrawer show={this.state.sideDrawerOpen} hide={this.drawerCloseClickHandler}/>
         <a href="#main__content" className="main__content--link">Skip to main content</a>
-        {/* <Header drawerClickHandler={this.drawerToggleClickHandler}/> */}
         <a name="pageTop" id="pageTop"/>
         {this.props.children}
       </StyledPage>

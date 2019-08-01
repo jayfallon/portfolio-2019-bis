@@ -23,7 +23,6 @@ class Header extends Component {
       render() {
         return (
             <>
-                <SideDrawer show={this.state.sideDrawerOpen} hide={this.drawerCloseClickHandler}/>
                 <HeaderStyles>
                     <section className="header__content">
                         <h1>
@@ -50,6 +49,7 @@ class Header extends Component {
                         </nav>
                     </section>
                 </HeaderStyles>
+                <SideDrawer show={this.state.sideDrawerOpen} hide={this.drawerCloseClickHandler}/>
             </>
         )
       }
