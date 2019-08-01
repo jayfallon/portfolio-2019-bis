@@ -1,8 +1,9 @@
 import styled, { css } from "styled-components";
 import media from '../MediaQueries'
+import {backgroundColor, textColor, linkColor} from '../Theme'
 
 const HeaderStyles = styled.header`
-    background: red;
+    background-color: ${backgroundColor};
     width: 100%;
     position: fixed;
     section.header__content {
@@ -15,7 +16,7 @@ const HeaderStyles = styled.header`
     }
     h1 {
         padding-bottom: 2rem;
-        color: #fff;
+        color: ${textColor};
         font-family: shackleton-condensed, serif;
         font-size: 3.9rem;
         line-height: 1.33;
@@ -25,7 +26,7 @@ const HeaderStyles = styled.header`
             font-size: 5.2rem;
         `}
         a {
-            color: #fff;
+            color: ${linkColor};
             text-decoration: none; 
         }
     }
@@ -34,7 +35,7 @@ const HeaderStyles = styled.header`
         display: flex;
         justify-content: space-between;
         h3 {
-            color: #fff;
+            color: ${textColor};
             font-size: 2rem;
         }
         ul.header__nav {
@@ -53,7 +54,7 @@ const HeaderStyles = styled.header`
             }
         }
         a {
-            color: #fff;
+            color: ${linkColor};
             text-decoration: none;
         } 
     }
@@ -63,7 +64,7 @@ export default HeaderStyles
 const DrawerToggleButtonStyles = styled.button`
     background: transparent;
     border: none;
-    color: #fff;
+    color: ${textColor};
     cursor: pointer;
     ${media.brotherbear`
         display: none;

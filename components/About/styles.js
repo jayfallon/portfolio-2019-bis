@@ -1,11 +1,16 @@
-import styled from 'styled-components'
-import media from '../MediaQueries'
+import styled from 'styled-components';
+import media from '../MediaQueries';
+import {backgroundColor, textColor, linkColor} from '../Theme';
 
 const AboutStyles = styled.section`
-    margin: 0 auto;
+    background-color: ${backgroundColor};
     padding: 17rem 2rem 4rem;
-    max-width: 96rem;
-    color: #fff;
+    color: ${textColor};
+
+    article {
+        margin: 0 auto;
+        max-width: 92rem;
+    }
 
     p {
         padding-bottom: 2rem;

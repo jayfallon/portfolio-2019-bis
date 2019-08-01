@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 import media from '../MediaQueries'
+import {backgroundColor, textColor, linkColor} from '../Theme';
 
 const FooterStyles = styled.footer`
-    background-color: ${props => props.theme.footerBgColor};
-    color: ${props => props.theme.footerTextColor};
+    background-color: ${backgroundColor};
+    color: ${textColor};
     section.footer__content {
         margin: 0 auto;
-        padding: 0rem 2rem 40rem;
+        padding: 4rem 2rem;
         max-width: 96rem; 
 
         h3 {
@@ -20,7 +21,7 @@ const FooterStyles = styled.footer`
             font-size: 2.2rem;
             line-height: 1.25;
             a {
-                color: ${props => props.theme.footerLinkColor};
+                color: ${linkColor};
                 text-decoration: none;
             }
         }
@@ -33,7 +34,7 @@ const FooterStyles = styled.footer`
             `}
 
             a {
-                color: ${props => props.theme.footerLinkColor};
+                color: ${linkColor};
                 font-size: 1.8rem;
                 text-decoration: none;
             }
