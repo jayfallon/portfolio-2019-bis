@@ -3,9 +3,8 @@ import media from '../MediaQueries';
 import {backgroundColor, textColor, linkColor} from '../Theme';
 
 const HomeBannerStyles = styled.section`
-    
+    background-color: ${backgroundColor};
     padding: 4rem 2rem 4rem;
-    
     color: ${textColor};
     text-align: center;
     display: flex;
