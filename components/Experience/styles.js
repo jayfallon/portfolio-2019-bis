@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {backgroundColor, textColor, linkColor} from '../Theme';
+import media from '../MediaQueries'
 
 const ExperienceStyles = styled.section`
     background-color: ${backgroundColor};
@@ -14,8 +15,11 @@ const ExperienceStyles = styled.section`
 
     p {
         padding-bottom: 4rem;
-        font-size: 2rem;
-        line-height: 1.2;
+        font-size: 1.75rem;
+        line-height: 1.25;
+        ${media.brotherbear`
+            font-size: 2rem;
+        `}
     }
 
     h3 {
@@ -23,15 +27,21 @@ const ExperienceStyles = styled.section`
         padding-bottom: 1rem;
         border-bottom: 0.1rem solid ${props => props.theme.resumeHrColor};
         font-family: shackleton-condensed, serif;
-        font-size: 2.8rem;
+        font-size: 2.2rem;
         font-weight: bold;
         text-transform: uppercase;
+        ${media.brotherbear`
+            font-size: 2.8rem;
+        `}
     }
 
     ul.resume__listing--list {
         li {
-            font-size: 2rem;
+            font-size: 1.75rem;
             line-height: 1.2;
+            ${media.brotherbear`
+                font-size: 2rem;
+            `}
         }
         li.resume__listing--title {
             padding-bottom: 0.4rem;
@@ -40,7 +50,10 @@ const ExperienceStyles = styled.section`
             justify-content: space-between;
             align-items: flex-end;
             h4 {
-                font-size: 2.3rem;
+                font-size: 2rem;
+                ${media.brotherbear`
+                    font-size: 2.3rem;
+                `}
             }
         }
         li.resume__listing--dates {

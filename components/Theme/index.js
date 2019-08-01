@@ -68,6 +68,9 @@ const Colors = {
     headerLtLinkColor: Colors.woodsmoke,
     headerLtTextColor: Colors.woodsmoke,
 
+    mainContentLinkBgColor: Colors.yellowOrange,
+    mainContentLinkColor: Colors.woodsmoke,
+
     mainContentBgColor: Colors.woodsmoke,
 
     bannerHomeTextColor: Colors.porcelain,
