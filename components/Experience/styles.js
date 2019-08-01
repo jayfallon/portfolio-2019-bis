@@ -46,9 +46,12 @@ const ExperienceStyles = styled.section`
         li.resume__listing--title {
             padding-bottom: 0.4rem;
             font-weight: bold;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
+            ${media.brotherbear`
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+            `}
+            
             h4 {
                 font-size: 2rem;
                 ${media.brotherbear`
