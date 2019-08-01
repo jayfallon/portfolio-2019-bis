@@ -78,12 +78,6 @@ main {
   padding: 0 0;
 }
 
-main#main__content {
-  background-color: ${Colors.woodsmoke};
-  margin: 0;
-  padding: 5rem 0 4rem;
-}
-
 #__next {
   height: 100%;
 }

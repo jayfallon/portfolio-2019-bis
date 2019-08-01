@@ -1,11 +1,12 @@
-import styled from 'styled-components'
-import media from '../MediaQueries'
+import styled from 'styled-components';
+import media from '../MediaQueries';
+import {backgroundColor, textColor, linkColor} from '../Theme';
 
 const HomeBannerStyles = styled.section`
-    margin: 16rem auto 0;
+    
     padding: 4rem 2rem 4rem;
-    max-width: 96rem;
-    color: ${props => props.theme.bannerHomeTextColor};
+    
+    color: ${textColor};
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,11 @@ const HomeBannerStyles = styled.section`
     ${media.brotherbear`
         padding: 10rem 2rem;
     `}
+
+    article {
+        margin: 16rem auto 0;
+        max-width: 96rem;
+    }
     
     p {
         font-size: 1.8rem;

@@ -1,10 +1,11 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import {backgroundColor, textColor, linkColor} from '../Theme';
 
-const ResumeStyles = styled.section`
-    background-color: ${props => props.theme.resumeBgColor};
+const ExperienceStyles = styled.section`
+    background-color: ${backgroundColor};
     margin: 0 auto;
     padding: 17rem 2rem 4rem;
-    color: ${props => props.theme.resumeTextColor};
+    color: ${linkColor};
 
     article {
         margin: 0 auto;
@@ -18,7 +19,7 @@ const ResumeStyles = styled.section`
     }
 
     h3 {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         padding-bottom: 1rem;
         border-bottom: 0.1rem solid ${props => props.theme.resumeHrColor};
         font-family: shackleton-condensed, serif;
@@ -55,4 +56,4 @@ const ResumeStyles = styled.section`
     }
 `
 
-export default ResumeStyles
+export default ExperienceStyles

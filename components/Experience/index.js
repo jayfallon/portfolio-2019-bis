@@ -1,4 +1,8 @@
-import ResumeStyles from './styles'
+import {ThemeProvider} from 'styled-components';
+import Header from '../Header';
+import Footer from '../Footer'
+import ExperienceStyles from './styles'
+
 
 const resumeData = [
     {
@@ -82,34 +86,44 @@ const resumeData = [
     }
 ]
 
-const Resume = props => (
-    <ResumeStyles>
-        {resumeData.map((elem, i) => (
-            <article key={i}>
-            <>
-                <h3>{elem.sectionTitle}</h3>
-           
-                    {
-                    (typeof(elem.sectionContent)=='object') ?
+const Experience = props => (
+    
+
+    <ThemeProvider theme={{ mode: 'light' }}>
+        <>
+            <Header/>
+            <main id="main__content" role="main">
+            <ExperienceStyles>
+                {resumeData.map((elem, i) => (
+                    <article key={i}>
                     <>
-                        {elem.sectionContent.map((el, j) => (
-                            <ul className="resume__listing--list" key={j}>
-                                <li className="resume__listing--title">
-                                    <h4>{el.entityTitle}</h4>
-                                    <span>{el.entityLocation}</span>    
-                                </li>
-                                <li className="resume__listing--dates">{el.entityDates}</li>
-                                <li className="resume__listing--job">{el.entityJob}</li>
-                                <li className="resume__listing--desc">{el.entityDesc}</li>
-                            </ul>
-                        ))}
-                    </>   
-                : <p>{elem.sectionContent}</p>
-              }
-            </>
-            </article>
-        ))}
-    </ResumeStyles>
+                        <h3>{elem.sectionTitle}</h3>
+                
+                            {
+                            (typeof(elem.sectionContent)=='object') ?
+                            <>
+                                {elem.sectionContent.map((el, j) => (
+                                    <ul className="resume__listing--list" key={j}>
+                                        <li className="resume__listing--title">
+                                            <h4>{el.entityTitle}</h4>
+                                            <span>{el.entityLocation}</span>    
+                                        </li>
+                                        <li className="resume__listing--dates">{el.entityDates}</li>
+                                        <li className="resume__listing--job">{el.entityJob}</li>
+                                        <li className="resume__listing--desc">{el.entityDesc}</li>
+                                    </ul>
+                                ))}
+                            </>   
+                        : <p>{elem.sectionContent}</p>
+                    }
+                    </>
+                    </article>
+                ))}
+            </ExperienceStyles>
+            </main>
+            <Footer/>
+        </>
+    </ThemeProvider>
 )
 
-export default Resume
+export default Experience

@@ -1,3 +1,5 @@
+import theme from 'styled-theming';
+
 const Colors = {
     curious: '#2b8cc4',
     daisyBush: '#4c2c92',
@@ -37,6 +39,23 @@ const Colors = {
     porcelain: '#FCFDFD',
     outerSpace: '#262C2E',
   };
+
+  const backgroundColor = theme('mode', {
+    light: Colors.porcelain,
+    dark: Colors.woodsmoke,
+  });
+
+  const textColor = theme('mode', {
+    light: Colors.woodsmoke,
+    dark: Colors.porcelain,
+  })
+
+  const linkColor = theme('mode', {
+    light: Colors.woodsmoke,
+    dark: Colors.porcelain,
+  })
+
+  export {backgroundColor, textColor, linkColor};
   
   const Theme = {
     pageBgColor: Colors.outerSpace,

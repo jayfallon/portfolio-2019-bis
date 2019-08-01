@@ -9,7 +9,9 @@ Thanks for stopping by.
 
 const HomeBanner = props => (
     <HomeBannerStyles>
-        <ReactMarkdown source={BannerContent} escapeHtml={false} />
+        <article>
+            <ReactMarkdown source={BannerContent} escapeHtml={false} />
+        </article>
     </HomeBannerStyles>
 )
 
