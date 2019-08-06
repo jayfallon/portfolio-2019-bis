@@ -41,7 +41,7 @@ const resumeData = [
                 entityDesc: "As a UX designer and developer, Jay works to support SSgA’s global digital team in its efforts to implement digital transformation initiatives by providing design and development deliverables, consultation and oversight as they migrate their content offerings and lead generation programs to the latest edition Adobe Experience Manager, complete with responsive design and analytical integration."
             },
             {
-                entityTitle: "Syrinx Consulting",
+                entityTitle: "Syrinx Consulting, Inc.",
                 entityLocation: "Boston, MA",
                 entityDates: "June 2018 - March 2019",
                 entityJob: "Senior User Experience Designer and Developer.",
@@ -55,7 +55,7 @@ const resumeData = [
                 entityDesc: "Responsible for assisting clients with web-based strategies, product research, design and development. Project engagements include working with Style Me Pretty on their upcoming website release, a ground-up overhaul of their existing products. Jay's responsibilities included working closely with the client to craft and implement a comprehensive experience strategy in addition to providing research, design and demonstration deliverables."
             },
             {
-                entityTitle: "Cengage Learning",
+                entityTitle: "Cengage Learning, Inc.",
                 entityLocation: "Boston, MA",
                 entityDates: "March 2014 – June 2016",
                 entityJob: "Senior User Experience Designer and Developer.",

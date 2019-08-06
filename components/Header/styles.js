@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import media from '../MediaQueries'
-import {backgroundColor, textColor, linkColor} from '../Theme'
+import {backgroundColor, textColor, linkColor} from '../Theme';
 
 const HeaderStyles = styled.header`
     background-color: ${backgroundColor};
@@ -15,7 +15,7 @@ const HeaderStyles = styled.header`
         `}
     }
     h1 {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         color: ${textColor};
         font-family: shackleton-condensed, serif;
         font-size: 3.9rem;
@@ -23,6 +23,7 @@ const HeaderStyles = styled.header`
         display: flex;
         justify-content: space-between;
         ${media.brotherbear`
+            padding-bottom: 2rem;
             font-size: 5.2rem;
         `}
         a {

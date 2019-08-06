@@ -5,8 +5,11 @@ import media from '../MediaQueries'
 const ExperienceStyles = styled.section`
     background-color: ${backgroundColor};
     margin: 0 auto;
-    padding: 17rem 2rem 4rem;
+    padding: 12rem 2rem 4rem;
     color: ${linkColor};
+    ${media.brotherbear`
+        padding: 21rem 2rem 4rem;
+    `}
 
     article {
         margin: 0 auto;
