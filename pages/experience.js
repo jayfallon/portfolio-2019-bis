@@ -1,7 +1,5 @@
-import Experience from '../components/Experience'
+import Experience from '../components/Experience';
 
-const ExperiencePage = () => (
-    <Experience/>
-)
+const ExperiencePage = () => <Experience />;
 
-export default ExperiencePage
+export default ExperiencePage;

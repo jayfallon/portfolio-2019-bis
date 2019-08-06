@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import Theme, {Colors} from '../Theme'
+import Theme, { Colors } from '../Theme';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -111,5 +111,5 @@ a.main__content--link:focus {
   clip-path: none;
   -webkit-clip-path: none;
 }
-`
-export default GlobalStyle
+`;
+export default GlobalStyle;
